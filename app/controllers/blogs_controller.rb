@@ -1,4 +1,5 @@
 class BlogsController < ApplicationController
+  
   def index
     @blogs = Blog.all
     p "標準出力にのみ反映"
